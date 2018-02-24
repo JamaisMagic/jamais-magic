@@ -1,1 +1,1 @@
-## Jamais Magic
+## Jamais Magic's blog

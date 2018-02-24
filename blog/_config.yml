@@ -10,10 +10,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Minimal Mistakes Development Test Site"
+title                    : "Jamais Magic"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "Minimal Mistakes theme test."
+name                     : "Jamais Magic"
+description              : "Jamais Magic's blog"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -87,10 +87,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Jamais Magic"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : ""
+  location         : "Peking China"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
