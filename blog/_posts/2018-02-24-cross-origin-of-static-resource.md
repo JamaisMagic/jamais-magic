@@ -13,34 +13,34 @@ tags:
 
 ```javascript
 function toBase64(imageUrl, isCrossOrigin) {
-            let image = new Image();
-            let canvas = document.createElement('canvas');
-            let context = canvas.getContext('2d');
+  let image = new Image();
+  let canvas = document.createElement('canvas');
+  let context = canvas.getContext('2d');
 
-            if (isCrossOrigin) {
-                image.setAttribute('crossorigin', 'anonymous');
-            }
-            image.onload = () => {
-                let imageWidth = image.width;
-                let imageHeight = image.height;
+  if (isCrossOrigin) {
+    image.setAttribute('crossorigin', 'anonymous');
+  }
+  image.onload = () => {
+    let imageWidth = image.width;
+    let imageHeight = image.height;
 
-                canvas.width = imageWidth;
-                canvas.height = imageHeight;
-                context.drawImage(image, 0, 0, imageWidth, imageHeight);
+    canvas.width = imageWidth;
+    canvas.height = imageHeight;
+    context.drawImage(image, 0, 0, imageWidth, imageHeight);
 
-                let result = null;
-                try {
-                    result = canvas.toDataURL('image/gif');
-                } catch (error) {
-                    this.error = error;
-                    console.error(error);
-                }
-                this.base64 = result;
-                console.log(result);
-            };
+    let result = null;
+    try {
+      result = canvas.toDataURL('image/gif');
+    } catch (error) {
+      this.error = error;
+      console.error(error);
+    }
+    this.base64 = result;
+    console.log(result);
+  };
 
-            image.src = imageUrl;
-        }
+  image.src = imageUrl;
+}
 ```
 
 执行上面的代码会报错
