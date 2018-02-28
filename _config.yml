@@ -91,10 +91,10 @@ analytics:
 # Site Author
 author:
   name             : "Jmais Magic"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg"
   bio              : ""
   location         : "Peking China"
-  email            :
+  email            : "1350756140@qq.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -103,7 +103,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "JamaisMagic"
   gitlab           :
   google_plus      :
   keybase          :
@@ -115,11 +115,12 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          :
+  twitter          : "MagicJamais"
   vine             :
   weibo            :
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  qq               : "1350756140"
 
 
 # Reading Files
