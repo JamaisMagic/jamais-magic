@@ -74,3 +74,7 @@ map部分写在http块里面，下面的add_header部分既可以写在http块�
 关于nginx的map，可以参考[这里](http://nginx.org/en/docs/http/ngx_http_map_module.html)
 
 至于为什么这份配置要用map，而不是简单一点地用if，我认为是因为这个原因：[If Is Evil](https://www.nginx.com/resources/wiki/start/topics/depth/ifisevil/)
+
+> Directive if has problems when used in location context, in some cases it doesn’t do what you expect but something completely different instead. In some cases it even segfaults. It’s generally a good idea to avoid it if possible.
+
+<site><a target="_blank" href="https://www.nginx.com/resources/wiki/start/topics/depth/ifisevil/">If Is Evil</a></site>
