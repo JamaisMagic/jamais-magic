@@ -2,6 +2,7 @@
 title: "静态资源的跨域问题"
 description: "静态资源的跨域问题"
 excerpt_separator: "<!--more-->"
+comments: true
 categories:
   - cors
 tags:
