@@ -60,4 +60,4 @@ DOMException: Failed to execute 'toDataURL' on 'HTMLCanvasElement': Tainted canv
 
 解决办法是在跨域的图片的http header添加Access-Control-Allow-Origin相关的头，同时在请求的图片添加crossorigin=anonymous的属性（如上面代码）。
 
-具体例子可以配合[这个](https://jamais.picoluna.com/m/subject/blog_sample/origin_of_static_resource/)页面查看。
+具体例子可以配合[这个](https://jamais.picoluna.com/m/subject/blog_sample/origin_of_static_resource/)页面查看（需要自行打开developer tool查看返回图片的http头）。
