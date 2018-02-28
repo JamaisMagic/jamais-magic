@@ -1,16 +1,16 @@
 ---
 title: "静态资源的跨域问题"
 description: "静态资源的跨域问题"
-keywords: "cors cross origin tainted canvases 跨域"
 excerpt_separator: "<!--more-->"
+last_modified_at: 2018-02-28T11:00:00+08:00
 comments: true
 categories:
+  - cors
+tags:
   - cors
   - cross origin
   - tainted canvases
   - 跨域
-tags:
-  - cors
 ---
 
 本来静态资源例如图片仅作普通的展示并不会遇到什么跨域问题，都是交给浏览器下载展示。但是当资源需要交给js处理的时候，跨域问题就出来了。
