@@ -1,10 +1,14 @@
 ---
 title: "静态资源的跨域问题"
 description: "静态资源的跨域问题"
+keywords: "cors cross origin tainted canvases 跨域"
 excerpt_separator: "<!--more-->"
 comments: true
 categories:
   - cors
+  - cross origin
+  - tainted canvases
+  - 跨域
 tags:
   - cors
 ---
