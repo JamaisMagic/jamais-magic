@@ -88,7 +88,7 @@ analytics:
 # Site Author
 author:
   name             : "Jamais Magic"
-  avatar           : "/assets/images/bio-photo.jpg"
+  avatar           : "/blog/assets/images/bio-photo.jpg"
   bio              : ""
   location         : "Peking China"
   email            : "1350756140@qq.com"
