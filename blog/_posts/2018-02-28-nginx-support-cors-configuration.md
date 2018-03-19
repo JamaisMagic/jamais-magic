@@ -14,7 +14,7 @@ tags:
 
 [参考这份配置](https://gist.github.com/JamaisMagic/357eb0b0be4d1b33ac4ab47388388483)
 
-```nginx
+```Nginx
 map $http_origin $allow_origin {
   default "";
   "~^https?://(?:[^/]*\.)?(stevebuzonas\.(?:com|local))(?::[0-9]+)?$" "$http_origin";
