@@ -116,3 +116,7 @@ mWebView.destroy();
 ```
 
 ##### Android 4.2一下版本的addJavascriptInterface漏洞问题。
+
+#### ios wkwebview调用window.alert, window.prompt, window.confirm无效等问题。
+
+需要客户端实现。

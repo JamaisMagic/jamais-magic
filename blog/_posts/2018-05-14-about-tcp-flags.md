@@ -1,6 +1,6 @@
 ---
-title: "关于tcp的falg"
-description: "关于tcp的falg"
+title: "关于tcp的flag"
+description: "关于tcp的flag"
 excerpt_separator: "<!--more-->"
 last_modified_at: 
 comments: true
