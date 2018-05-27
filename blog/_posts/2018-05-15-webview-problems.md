@@ -120,3 +120,7 @@ mWebView.destroy();
 #### ios wkwebview调用window.alert, window.prompt, window.confirm无效等问题。
 
 需要客户端实现。
+
+#### 如果跳转页面多，需要按多次返回键才能返回进入webview前一个页面。
+
+可以让客户端在顶部栏加一个叉叉按钮，表明是关闭当前Activity的。
