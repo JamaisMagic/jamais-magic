@@ -124,3 +124,53 @@ mWebView.destroy();
 #### 如果跳转页面多，需要按多次返回键才能返回进入webview前一个页面。
 
 可以让客户端在顶部栏加一个叉叉按钮，表明是关闭当前Activity的。
+
+#### js与Android用addjavascriptInterface交互，当java定义的方法的参数类型与js实际传过来的参数类型不一致时，js报错。
+Error: Method not found.
+
+#### 执行字符串的js，如果传参为字符串，要注意不要再参数漏了单引号或者双引号，如果是数字则没问题。否则报missing ) after params list。
+```java
+@JavascriptInterface
+public void callStringCallback(final String string) {
+    Toast.makeText(mContext, "Call method: callStringCallback, params: " + string, Toast.LENGTH_LONG).show();
+    new Handler(Looper.getMainLooper()).post(new Runnable() {
+        @Override
+        public void run() {
+            String script = "window.onPgClientCallback('" + string + "')";
+
+            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.KITKAT) {
+                mWebView.evaluateJavascript(script, null);
+            } else {
+                mWebView.loadUrl("javascript:" + script + "");
+            }
+        }
+    });
+}
+```
+
+##### 不知道如何调试ios wkwebview？用Safari Technology Preview
+[Download Safari Technology Preview](https://developer.apple.com/safari/download/)
+
+#### Android使用addJavascriptInterface的，假如配置代码混淆，注意不要把注入给js的方法名字混淆掉。
+
+#### 关于localStorage
+
+做内嵌于app的网页，真的经常会遇到不能用localStorage的情况，Android的要提醒客户端添加配置。
+
+```java
+settings.setJavaScriptEnabled(true);
+```
+
+#### 关于调试webview。
+
+Android可以用chrome远程调试，同时客户端要添加配置。
+
+```java
+if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+    WebView.setWebContentsDebuggingEnabled(true);
+ }
+```
+
+或者在Android studio的logcat里面过滤chromium查看js打的log。
+
+iOS则需要用Safari远程调试。如果普通的Safari不行，可以试试Safari technology preview。

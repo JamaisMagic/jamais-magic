@@ -64,6 +64,22 @@ tags:
 
 这个问题之前没有解决办法，应该是浏览器缓存导致的，后来查了下网上，据说可以使用onpageshow事件解决，待验证。
 
-同时可以参考这个资料
+同时可以参考这个资料。
+
+### input type="text" 的readonly属性。
+
+在ios上看上去好像可以编辑的，而且点击的时候会把键盘的顶部栏弹出来，只显示一个完成按钮。
+这样还以为是有什么bug呢。
+
+### form button 的type问题。
+
+如果button不写type，则默认为submit，所以要根据用途指定type。
+
+### window.history.go()
+
+正常情况，调用history.go()和history.go(0)，应该都是重新加载当前页面。
+但是mac上的Safari和ios上的Safari是没有反应的。
+
+### ios 11的input text居然不支持点击光标到字母之间进行修改，只能点到有空格的地方修改。
 
 > <site><a target="_blank" href="https://developer.mozilla.org/en-US/Firefox/Releases/1.5/Using_Firefox_1.5_caching">Using Firefox 1.5 caching</a></site>
