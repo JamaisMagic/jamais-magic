@@ -174,3 +174,10 @@ if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
 或者在Android studio的logcat里面过滤chromium查看js打的log。
 
 iOS则需要用Safari远程调试。如果普通的Safari不行，可以试试Safari technology preview。
+
+#### ios9开始block掉不安全的http请求。
+
+例如，如果想自己调试自己的http网站，webview会显示空白页，不加在网页。需要修改app transport security setting,
+在Info.plist文件修改，参考下面链接。
+
+> <site><a target="_blank" href="https://ooiks.com/2017/10/15/ios-wkwebview-return-a-blank-screen-white-screen/">IOS WKWEBVIEW RETURN A BLANK SCREEN / WHITE SCREEN</a></site>

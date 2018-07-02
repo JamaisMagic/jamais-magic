@@ -78,8 +78,15 @@ tags:
 ### window.history.go()
 
 正常情况，调用history.go()和history.go(0)，应该都是重新加载当前页面。
-但是mac上的Safari和ios上的Safari是没有反应的。
+<del>但是mac上的Safari和ios上的Safari是没有反应的。</del>
+
+纠正一下，应该是在用hash做路由的时候没反应，其他情况（包括history api）是正常的。
 
 ### ios 11的input text居然不支持点击光标到字母之间进行修改，只能点到有空格的地方修改。
 
 > <site><a target="_blank" href="https://developer.mozilla.org/en-US/Firefox/Releases/1.5/Using_Firefox_1.5_caching">Using Firefox 1.5 caching</a></site>
+
+
+### ios Safari及其webview，如果顶部栏使用position:fixed;下面的容器有margin top 的，会让body的顶部离开view port顶部，html正常。
+
+这种情况最好把margin改为padding。
