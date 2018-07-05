@@ -42,17 +42,24 @@ tags:
 
 一个足够handy的工具链差不多就是这样了。
 
-最后需要注意的一点是，build的时候如果页面不是在跟目录，需要在package.json文件的homepage属性修改地址喔。
+最后需要注意的一点是，build的时候如果页面不是在根目录，需要在package.json文件的homepage属性修改地址喔。
 
 和Vue做个简单的对比。
 
 从构建工具来说，vue-cli明显比create-react-app好用好多，许多方面都考虑进去，除了双方都做好了配置的es6+语法转es5之外，vue-cli把三种主流的css与处理器都做了配置，支持一个scope属性的css module。路由代码分割vue-cli也比较简答，对多页面构建的支持还没搞过不好对比。
+
 从框架的使用来说，Vue模板和react jsx孰优孰劣我觉得看每个人自己想法或者习惯，没有什么好说的，我觉得都OK。只是jsx比较容易在html里夹杂太多逻辑，例如渲染个列表需要自己写循环Array.prototype.map啊之类的。
+
 组件之间的通信方面，别的不说，只说父子组件通信，双方都是子组建可以根据父组件传入的props的变化渲染页面，但是假如子组件需要通知父组件做一些事情，就有点不同了，Vue可以通过事件实现，而React则需要把函数通过props传递给自组建，由子组件调用，感觉这个耦合会比较大。
+
 React有些组件的重新渲染需要在props里面加key={xxx}才行，这个不知道什么原因。
+
 在事件绑定的函数的this，React需要自己手动做绑定，而Vue已经做好了绑定。
+
 React组件修改state不能直接给对象赋值，而是要调用this.setState()方法，而这个方法是merge式工作的，即是只改写了的属性，不写的属性是不会修改的。
+
 引用外部组件，React import进来后可以直接在jsx里用，而Vue还需要在components对象里声明一下，这个不知道为什么。
+
 关于表单的绑定，例如input text，React需要手动在onChange事件里修改state，而Vue的v-model已经自动做了这些事情了。
 
 总的来说确实是Vue使用比较简单，很多东西都已经考虑过了，React还是有更多需要“手动”干的事情。
