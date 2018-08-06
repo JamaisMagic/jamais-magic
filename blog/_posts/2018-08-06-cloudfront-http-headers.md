@@ -7,7 +7,8 @@ comments: true
 categories:
   -
 tags:
-  - logrotate pm2
+  - cdn
+  - amazon cloudfront
 ---
 
 之前做一个东西，需要判断用户ip所在的国家（或者说地区）
