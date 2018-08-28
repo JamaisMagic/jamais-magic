@@ -115,7 +115,7 @@ mWebView.removeAllViews();
 mWebView.destroy();
 ```
 
-##### Android 4.2一下版本的addJavascriptInterface漏洞问题。
+##### Android 4.2以下版本的addJavascriptInterface漏洞问题。
 
 #### ios wkwebview调用window.alert, window.prompt, window.confirm无效等问题。
 
@@ -181,3 +181,16 @@ iOS则需要用Safari远程调试。如果普通的Safari不行，可以试试Sa
 在Info.plist文件修改，参考下面链接。
 
 > <site><a target="_blank" href="https://ooiks.com/2017/10/15/ios-wkwebview-return-a-blank-screen-white-screen/">IOS WKWEBVIEW RETURN A BLANK SCREEN / WHITE SCREEN</a></site>
+
+#### webview里面点击target="_blank"的链接没有反应。
+
+需要Android进行设置。
+```java
+webSettings.setSupportMultipleWindows(true);
+```
+然后在WebViewClient实现onCreateWindow,具体如何实现是在原来的webview打开链接还是调用外部浏览器还是怎样就看需要了。
+
+另外ios的webview也是有这个问题的，需要注意。而且ios的webview有点奇怪，假如跳转的链接是要打开第三方app，用blank而有装app的情况下是可以打开的。
+没装的话就不能打开而且不能跳转中间页。
+
+自家的app固然可以改，如果要把页面坐在别家app内就比较麻烦了，还是用self比较好（移动端）。

@@ -84,7 +84,7 @@ MessageChannel的支持度貌似比较好。
 
 > <site><a target="_blank" href="https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/Hn3GxRLXmR0">setImmediate?</a></site>
 
-另外顺便提一下判断就是否浏览器原声方法的函数isNative其实是用native code这个字符串来判断的，不小心的话可能会有问题。
+另外顺便提一下判断就是否浏览器原生方法的函数isNative其实是用native code这个字符串来判断的，不小心的话可能会有问题。
 
 ```javascript
 /* istanbul ignore next */

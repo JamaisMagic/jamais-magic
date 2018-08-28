@@ -26,9 +26,18 @@ add_header X-Content-Type-Options nosniff;
 
 add_header X-XSS-Protection "1; mode=block";
 
-add_header Content-Security-Policy "default-src 'self';";
+add_header Content-Security-Policy "default-src 'self';" always;
+
+add_header Strict-Transport-Security "max-age=86400; includeSubdomains; preload";
 ```
+
+其中Strict-Transport-Security这个头应该只需要在https访问的情况下加，http加了浏览器也是忽略，因为浏览器不信任http。
 
 一些参考资料。
 
 <site><a target="_blank" href="https://gist.github.com/plentz/6737338">Best nginx configuration for improved security(and performance)</a></site>
+
+content-security-policy
+
+<site><a target="_blank" href="https://content-security-policy.com/">Content Security Policy (CSP)
+Quick Reference Guide</a></site>
