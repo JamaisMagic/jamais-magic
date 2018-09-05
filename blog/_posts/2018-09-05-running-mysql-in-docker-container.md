@@ -25,4 +25,4 @@ docker镜像我用的是这个：<a target="_blank" href="https://hub.docker.com
 
 其他的可以参考这个镜像文档，以及我写的docker compose配置：<a target="_blank" href="https://github.com/JamaisMagic/docker_mysql">docker_mysql</a>
 
-这种做法当然只是比较适合个人项目啦，如果需要在production环境运行，还要考虑怎么搞集群这些东西。= =
+这种做法当然只是比较适合个人项目啦，只是用一个容器运行一个数据库实例，如果需要在production环境运行，还要考虑怎么搞集群这些东西。= =
