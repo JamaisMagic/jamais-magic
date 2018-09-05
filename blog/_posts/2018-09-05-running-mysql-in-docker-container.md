@@ -22,7 +22,14 @@ docker镜像我用的是这个：<a target="_blank" href="https://hub.docker.com
 2. 容器运行之后只需要用docker exec -it container_id mysql_command 即可运行mysql命令。
 3. 假如需要在容器初始运行时创建数据库、表等，只需要把写好的mysql语句放在容器的/docker-entrypoint-initdb.d 目录里。
 4. 最好把数据库数据volume到host的目录里，方便管理和防止容器销毁时数据丢失。
+5. 假如自己想强制删除数据库重新初始化，先stop container，然后rm container，然后rm container相应的volume，再重新运行container。
+6. 如果不知道volume，可以用docker volume ls命令查看，再rm。
+7. 如果使用了named volume，docker compose会默认在目录前面添加 directory name，如果需要修改之歌名字，可以在docker-compose的参数加 -p 制定project name，同时运行同一个project的其他命令也需要指定同一个 -p。
 
 其他的可以参考这个镜像文档，以及我写的docker compose配置：<a target="_blank" href="https://github.com/JamaisMagic/docker_mysql">docker_mysql</a>
 
 这种做法当然只是比较适合个人项目啦，只是用一个容器运行一个数据库实例，如果需要在production环境运行，还要考虑怎么搞集群这些东西。= =
+
+其他参考资料：
+
+> <site><a target="_blank" href="https://github.com/Radu-Raicea/Dockerized-Flask/wiki/%5BDocker%5D-Remove-all-Docker-volumes-to-delete-the-database">[Docker] Remove all Docker volumes to delete the database</a></site>
