@@ -33,4 +33,6 @@ sudo systemd-resolve --flush-caches
 
 最后顺便说一下，用docker跑certbot获取通配符的ssl证书，可以参考我这个命令，替换-d的参数，执行之后按提示操作即可。
 
+当然，这个命令也是fork别人的拿来改的哈哈哈。
+
 <script src="https://gist.github.com/JamaisMagic/cda624aa0c7ef0225fc845eb4a831334.js"></script>
