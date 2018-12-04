@@ -196,6 +196,11 @@ func main() {
 
 golang可以是用空白标记（blank identifier）接收任意类型的返回值，可以用于在多个返回值里忽略自己不需要的值。
 
+golang的函数声明关键字func既简单又明了，不像js和php用完整的单词，也不像python用莫名其妙的def。
+golang的参数相对来说比较简单，不像python那么多花样（如命名参数，默认参数，位置参数，关键字参数等）
+和python一样可以返回多个值。
+golang还有一个独特的地方是可以事先对返回值命名，由函数自动返回这些值。
+
 ```golang
 package main
 
@@ -214,5 +219,36 @@ func main() {
     fmt.Println(result3)
 }
 ```
+
+## 包（package）
+
+对包的概念应该都不陌生了。
+
+go每个文件都要package关键字声明这个文件属于哪个package。
+
+如需要倒入外部包，需要用import关键字导入。
+
+自己写的包，对外暴露变量或函数，这些变量和函数的名字要以大写字母开头。
+
+每个包都可以有一个或多个init函数，这个init函数没有返回类型也没有参数，而且不能显式调用，由程序自动调用。
+
+init函数的调用顺序，首先，包级别的变量先初始化，然后各个init函数以它在编译器出现的顺序执行。
+
+如果导入了其他包，则其他包的init函数会先执行，包括比当前文件的包级别的变量初始化要早。
+
+一个包无论被import多少次，只会初始化一次。
+
+在import的报名掐年加空白表肌肤（blank identifier）可以导入包而不使用而编译器不会报错。
+
+```golang
+import (
+    "fmt"
+    _ "anotherPkg/anotherPkg"
+)
+```
+
+golang的访问控制比较简单，相当于只有Java的public和private，没有protected和package级别的访问控制。
+而且也不需要关键字，只用字母大小写做区分。这一点和python有点像，python用下划线表示私有，但不同的是，python的下划线是约定俗成的，
+而golang的是语言层面决定的。
 
 未完待续，持续更新～
