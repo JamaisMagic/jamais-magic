@@ -20,10 +20,10 @@ tags:
 
 顺便放一下我用来判断ip的库。
 
-<site><a target="_blank" href="https://github.com/whitequark/ipaddr.js">ipaddr.js</a></site>
+* <site><a target="_blank" href="https://github.com/whitequark/ipaddr.js">ipaddr.js</a></site>
 
 以及express中关于ip的源码。
 
-<site><a target="_blank" href="https://github.com/expressjs/express/blob/master/lib/request.js">express/lib/request.js</a></site>
+* <site><a target="_blank" href="https://github.com/expressjs/express/blob/master/lib/request.js">express/lib/request.js</a></site>
 
 包括protocol，secure，ip，ips，subdomains，path，hostname，host等等属性都是一个getter，而没有定义setter。

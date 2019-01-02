@@ -17,8 +17,8 @@ tags:
 
 具体可以参考下面的链接。
 
-<site><a target="_blank" href="https://mathiasbynens.github.io/rel-noopener/">About rel=noopener</a></site>
+* <site><a target="_blank" href="https://mathiasbynens.github.io/rel-noopener/">About rel=noopener</a></site>
 
 另外，文中推荐了另外一篇文章，讨论什么时候用target="_blank"的，也可以顺便看看。
 
-<site><a target="_blank" href="https://css-tricks.com/use-target_blank/">When to use target=”_blank”</a></site>
+* <site><a target="_blank" href="https://css-tricks.com/use-target_blank/">When to use target=”_blank”</a></site>

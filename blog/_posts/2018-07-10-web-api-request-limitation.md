@@ -48,6 +48,6 @@ module.exports = function(limitCount=30, limitTime=60) {
 };
 ```
 
-<site><a target="_blank" href="https://redis.io/commands/incr">INCR key</a></site>
+* <site><a target="_blank" href="https://redis.io/commands/incr">INCR key</a></site>
 
-<site><a target="_blank" href="https://redis.io/commands/expire">EXPIRE key seconds</a></site>
+* <site><a target="_blank" href="https://redis.io/commands/expire">EXPIRE key seconds</a></site>

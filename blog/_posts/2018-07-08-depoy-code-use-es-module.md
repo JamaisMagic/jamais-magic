@@ -18,17 +18,17 @@ tags:
 
 具体可以参考下面的文章。
 
-<site><a target="_blank" href="https://philipwalton.com/articles/deploying-es2015-code-in-production-today/">Deploying ES2015+ Code in Production Today</a></site>
+* <site><a target="_blank" href="https://philipwalton.com/articles/deploying-es2015-code-in-production-today/">Deploying ES2015+ Code in Production Today</a></site>
 
 另外，关于es module在浏览器端的一些特性，可以看这篇文章了解一下。
 
-<site><a target="_blank" href="https://jakearchibald.com/2017/es-modules-in-browsers/">ECMAScript modules in browsers</a></site>
+* <site><a target="_blank" href="https://jakearchibald.com/2017/es-modules-in-browsers/">ECMAScript modules in browsers</a></site>
 
-<site><a target="_blank" href="https://developers.google.com/web/fundamentals/primers/modules">Using JavaScript modules on the web</a></site>
+* <site><a target="_blank" href="https://developers.google.com/web/fundamentals/primers/modules">Using JavaScript modules on the web</a></site>
 
 
 顺便，还可以了解一下node使用的commonjs module的一些细节。
 
-<site><a target="_blank" href="https://medium.freecodecamp.org/requiring-modules-in-node-js-everything-you-need-to-know-e7fbd119be8">Requiring modules in Node.js: Everything you need to know</a></site>
+* <site><a target="_blank" href="https://medium.freecodecamp.org/requiring-modules-in-node-js-everything-you-need-to-know-e7fbd119be8">Requiring modules in Node.js: Everything you need to know</a></site>
 
 至于es module在node端的一些细节，下次再补补。

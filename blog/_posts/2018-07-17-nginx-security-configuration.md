@@ -35,9 +35,9 @@ add_header Strict-Transport-Security "max-age=86400; includeSubdomains; preload"
 
 一些参考资料。
 
-<site><a target="_blank" href="https://gist.github.com/plentz/6737338">Best nginx configuration for improved security(and performance)</a></site>
+* <site><a target="_blank" href="https://gist.github.com/plentz/6737338">Best nginx configuration for improved security(and performance)</a></site>
 
 content-security-policy
 
-<site><a target="_blank" href="https://content-security-policy.com/">Content Security Policy (CSP)
+* <site><a target="_blank" href="https://content-security-policy.com/">Content Security Policy (CSP)
 Quick Reference Guide</a></site>

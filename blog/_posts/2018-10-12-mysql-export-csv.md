@@ -36,6 +36,6 @@ show variables like "secure_file_priv";
 
 参考网页：
 
-<site><a target="_blank" href="https://stackoverflow.com/questions/356578/how-to-output-mysql-query-results-in-csv-format">How to output MySQL query results in CSV format?</a></site>
+* <site><a target="_blank" href="https://stackoverflow.com/questions/356578/how-to-output-mysql-query-results-in-csv-format">How to output MySQL query results in CSV format?</a></site>
 
-<site><a target="_blank" href="https://stackoverflow.com/questions/32737478/how-should-i-tackle-secure-file-priv-in-mysql">How should I tackle --secure-file-priv in MySQL?</a></site>
+* <site><a target="_blank" href="https://stackoverflow.com/questions/32737478/how-should-i-tackle-secure-file-priv-in-mysql">How should I tackle --secure-file-priv in MySQL?</a></site>
