@@ -21,14 +21,14 @@ tags:
 
 Referrers:
 
-<site><a target="_blank" href="https://www.ctl.io/developers/blog/post/gracefully-stopping-docker-containers/">Gracefully Stopping Docker Containers</a></site>
+* <site><a target="_blank" href="https://www.ctl.io/developers/blog/post/gracefully-stopping-docker-containers/">Gracefully Stopping Docker Containers</a></site>
 
-<site><a target="_blank" href="https://hackernoon.com/my-process-became-pid-1-and-now-signals-behave-strangely-b05c52cc551c">My process became PID 1 and now signals behave strangely</a></site>
+* <site><a target="_blank" href="https://hackernoon.com/my-process-became-pid-1-and-now-signals-behave-strangely-b05c52cc551c">My process became PID 1 and now signals behave strangely</a></site>
 
-<site><a target="_blank" href="https://www.elastic.io/nodejs-as-pid-1-under-docker-images/">Avoid running NodeJS as PID 1 under Docker images</a></site>
+* <site><a target="_blank" href="https://www.elastic.io/nodejs-as-pid-1-under-docker-images/">Avoid running NodeJS as PID 1 under Docker images</a></site>
 
-<site><a target="_blank" href="https://forums.docker.com/t/what-the-latest-with-the-zombie-process-reaping-problem/50758">What the latest with the zombie process reaping problem?</a></site>
+* <site><a target="_blank" href="https://forums.docker.com/t/what-the-latest-with-the-zombie-process-reaping-problem/50758">What the latest with the zombie process reaping problem?</a></site>
 
-<site><a target="_blank" href="https://github.com/docker/compose/issues/5049">compose file version 3.0 removed support for init #5049</a></site>
+* <site><a target="_blank" href="https://github.com/docker/compose/issues/5049">compose file version 3.0 removed support for init #5049</a></site>
 
-<site><a target="_blank" href="https://github.com/krallin/tini">Tini - A tiny but valid init for containers</a></site>
+* <site><a target="_blank" href="https://github.com/krallin/tini">Tini - A tiny but valid init for containers</a></site>
