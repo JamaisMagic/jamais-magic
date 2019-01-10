@@ -138,14 +138,16 @@ const result = await webPush.sendNotification(storedSubscriptionObject), 'payloa
 
 Referrers:
 
-* <site><a target="_blank" href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa">@vue/cli-plugin-pwa</a></site>
+* <a target="_blank" href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa">@vue/cli-plugin-pwa</a>
 
-* <site><a target="_blank" href="https://developers.google.com/web/tools/workbox/modules/workbox-webpack-plugin">Workbox webpack Plugins</a></site>
+* <a target="_blank" href="https://developers.google.com/web/tools/workbox/modules/workbox-webpack-plugin">Workbox webpack Plugins</a>
 
-* <site><a target="_blank" href="https://gist.github.com/malko/ff77f0af005f684c44639e4061fa8019">malko/urlBase64ToUint8Array.js</a></site>
+* <a target="_blank" href="https://gist.github.com/malko/ff77f0af005f684c44639e4061fa8019">malko/urlBase64ToUint8Array.js</a>
 
-* <site><a target="_blank" href="https://developers.google.com/web/fundamentals/push-notifications/how-push-works">How Push Works</a></site>
+* <a target="_blank" href="https://developers.google.com/web/fundamentals/push-notifications/how-push-works">How Push Works</a>
 
-* <site><a target="_blank" href="https://web-push-book.gauntface.com/chapter-05/04-common-notification-patterns/">Common Notification Patterns</a></site>
+* <a target="_blank" href="https://web-push-book.gauntface.com/chapter-05/04-common-notification-patterns/">Common Notification Patterns</a>
 
-* <site><a target="_blank" href="https://developers.google.com/web/fundamentals/push-notifications/subscribing-a-user#permissions_and_subscribe">Subscribing a User</a></site>
+* <a target="_blank" href="https://developers.google.com/web/fundamentals/push-notifications/subscribing-a-user#permissions_and_subscribe">Subscribing a User</a>
+
+* <a target="_blank" href="https://blog.sessionstack.com/how-javascript-works-the-mechanics-of-web-push-notifications-290176c5c55d">How JavaScript works: the mechanics of Web Push Notifications</a>
