@@ -151,3 +151,15 @@ Referrers:
 * <a target="_blank" href="https://developers.google.com/web/fundamentals/push-notifications/subscribing-a-user#permissions_and_subscribe">Subscribing a User</a>
 
 * <a target="_blank" href="https://blog.sessionstack.com/how-javascript-works-the-mechanics-of-web-push-notifications-290176c5c55d">How JavaScript works: the mechanics of Web Push Notifications</a>
+
+* <a target="_blank" href="https://serviceworke.rs/">Service Worker Cookbook.</a>
+
+* <a target="_blank" href="https://auth0.com/blog/introduction-to-progressive-web-apps-push-notifications-part-3/">Introduction to Progressive Web Apps (Push Notifications) - Part 3</a>
+
+* <a target="_blank" href="https://tools.ietf.org/html/draft-ietf-webpush-vapid-01">Voluntary Application Server Identification</a>
+
+* <a target="_blank" href="https://medium.com/@krishsoftware1991/introduction-to-jwt-json-web-token-jws-json-web-signature-and-jwe-json-web-encryption-7e706799a48">Introduction to JWT (JSON Web Token), JWS (JSON Web Signature) and JWE(JSON Web Encryption)</a>
+
+* <a target="_blank" href="https://medium.com/vandium-software/5-easy-steps-to-understanding-json-web-tokens-jwt-1164c0adfcec">5 Easy Steps to Understanding JSON Web Tokens (JWT)</a>
+
+* <a target="_blank" href="https://developers.google.com/web/fundamentals/push-notifications/web-push-protocol">The Web Push Protocol</a>
